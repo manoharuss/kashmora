@@ -1,0 +1,21 @@
+{
+  "name": "observe-osm-user-comments",
+  "version": "1.0.0",
+  "engines": {
+    "node": "^8 || ^10"
+  },
+  "description": "For OSM users, returns a list of changesets that are not yet resolved in terms of conversations",
+  "main": "create-logs.js",
+  "scripts": {
+    "test": "prettier *.js --check",
+    "lint": "prettier *.js --write"
+  },
+  "author": "Manohar Erikipati",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "commander": "^4.0.0",
+    "prettier": "^1.18.2",
+    "request": "^2.88.0"
+  }
+}
