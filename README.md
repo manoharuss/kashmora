@@ -1,13 +1,24 @@
+![kashmora](https://user-images.githubusercontent.com/8921295/68394877-a39d3d00-0194-11ea-8ef3-2a95b7e91a6f.jpg)
+
+Kashmora (English: A Powerful Black Magic) is a Telugu horror film released in 1986 https://en.wikipedia.org/wiki/Kashmora_(1986_film)
+
+-----------
+
+### Purpose
+
 This repo contains a local use CLI that serves 2 purposes -
 
-- To keep a tab on discussions happening on OSM profiles between a specified period of dates
+- To keep a tab on discussions happening on changesets of OpenStreetMap profiles between a specified period of dates
 - To use a naive 'last user to comment' logic, to list unresolved discussions on OSM changesets
+
+
+### Requests to OSMCHA API
 
 This repo uses OSMCHA API for fetching information on users and changesets. Below are the 2 types of API requests performed on OSMCHA
 
 - [Fetch Changeset list](https://osmcha.mapbox.com/api-docs/#operation/changesets_list) `https://osmcha.mapbox.com/api/v1/changesets/`
   - Query options
-    - users - `&users=` argument to provide a comma separated list of OSM usernames
+    - users - `&users=` argument to provide a comma separated list of OpenStreetMap usernames
     - from date - `&date__gte=` argument can be used to provided a YYYY-MM-DD `from` date to specify a period
     - to date - `&date__lte=` argument can be used to provided a YYYY-MM-DD `to` date to specify a period
 
@@ -20,8 +31,8 @@ This repo uses OSMCHA API for fetching information on users and changesets. Belo
 ### Step 1 - Create a local setup of this repo
 
 ```sh
-git clone git@github.com:manoharuss/observe-osm-user-comments.git
-cd observe-osm-user-comments
+git clone git@github.com:manoharuss/kashmora.git
+cd kashmora
 nvm use 10 lts
 npm install
 ```
@@ -69,5 +80,5 @@ LOG FOR USERNAME :  manoharuss
 
 #### Contributions
 
-For any feature requests and suggestions, please open Github issues at https://github.com/manoharuss/observe-osm-user-comments/issues.
+For any feature requests and suggestions, please open Github issues at https://github.com/manoharuss/kashmora/issues.
 Pull requests from other developers looking to develop on this repo are welcome. Please create an issue on this repo to request access and will be responded to immediately.
