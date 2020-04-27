@@ -1,5 +1,3 @@
-![kashmora](https://user-images.githubusercontent.com/8921295/68394877-a39d3d00-0194-11ea-8ef3-2a95b7e91a6f.jpg)
-
 Kashmora (English: A Powerful Black Magic) is a Telugu horror film released in 1986 https://en.wikipedia.org/wiki/Kashmora_(1986_film)
 
 -----------
